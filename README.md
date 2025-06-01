@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+# ✍️ Polish 🪄
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A Chrome Extension for Polishing, Proofreading, and Tone Adjustment using AI.
 
-Currently, two official plugins are available:
+## What it does?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Watch and find it yourself 😉
+https://www.youtube.com/watch?v=QVO2-ucKMRo
 
-## Expanding the ESLint configuration
+## How to Install?
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Step 1: Go to [releases](https://github.com/Abubakkar-Siddhiq/polish/releases/tag/v1.0.0) and download the polish-v1.0.0.tar.gz file
+![image](https://github.com/user-attachments/assets/a962e0f9-7056-442a-b434-98d12e8bb1a5)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Step 2: Unzip the polish-v1.0.0.tar.gz
+![image](https://github.com/user-attachments/assets/452582ac-d08e-4023-bf3f-ebd9c05a0fc6)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Step 3: Now go to Chrome Extension Settings/ Manage Extensions
+![image](https://github.com/user-attachments/assets/f9fa1f00-e189-40bf-82a7-1abef37d472b)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Step 4: Turn on Developer Mode
+![image](https://github.com/user-attachments/assets/a2f58290-661b-4750-9c6a-1b8244dc3bf1)
+
+### Step 5: Click Load unpacked
+![image](https://github.com/user-attachments/assets/047543e1-4002-40f3-8f84-707df2e1cfc1)
+
+### Step 6: Select dist folder inside the polish-v1.0.0 folder
+![image](https://github.com/user-attachments/assets/60861a7c-286b-4aa4-a778-1b9ed59deb19)
+
+### Finally it'll look like this and You're set to go! 🚀
+![image](https://github.com/user-attachments/assets/04f7da19-5f68-4529-8874-950166156e7d)
+
